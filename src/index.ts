@@ -1,8 +1,8 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "cyberpunk cat",
-    };
+  prompt: "A high-resolution, full 3D rendering of **[Radiant and beautiful horse. random theme of fantacy/futuristic/ancient/mystic/elemental]** in a realistic style, detailed cinematic lighting, and a dynamic pose that captures the character's essence. The scene is a mix of sci-fi and fantastical elements, with a vibrant color palette.",
+};
 
     const response = await env.AI.run(
       "@cf/stabilityai/stable-diffusion-xl-base-1.0",
